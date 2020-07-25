@@ -1,2 +1,2 @@
 # iotaxi.github.io
-This is the Repository for websie. Initialise with a README
+This is the Repository for website. Initialise with a README
