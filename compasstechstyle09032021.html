@@ -1,0 +1,26 @@
+<!DOCTYPE=HTML><HTML>
+<HEAD>
+<TITLE>My First Web Page: Lesson 5</TITLE>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<style>
+	 h2 {color:red;}
+	 p {color:black;}
+	 ul {color:green;}
+</style>
+	<script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script> var matID = "aquyht3n"</script>
+	<script>  
+		 var ggbApp = new GGBApplet({"appName": "classic", "width": 900, "height": 700,
+				 "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true,
+				 "material_id":matID,  "enableCAS": true, appletOnLoad: function (api) { api.evalCommandCAS("x+2x")}}, true);
+		 window.addEventListener("load", function() { 
+				 		 		 ggbApp.inject("ggb-element");
+		 		 		 		 });
+	</script>
+</HEAD>
+<BODY>
+<BLOCKQUOTE>
+<H2>My First GeoGebra Web Page</H2>
+	<center><div id="ggb-element"></div></center> 
+</BODY>
+</HTML>
